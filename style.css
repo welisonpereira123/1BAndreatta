@@ -1,140 +1,130 @@
-header {
-    background: #BBBBBB;
-    padding: 20px 0;
-    }
-    
-    .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-    }
-    
-    nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-    }
-    
-    nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-    }
-    
-    nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-    }
-    
-    nav a:hover {
-    color: #C78C19;
-    text-decoration: underline;
-    }
-    
-    .produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-    }
-    
-    .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    }
-    
-    .produtos li:hover {
-    border-color: #C78C19;
-    }
-    
-    .produtos li:active {
-    border-color: #088C19;
-    }
-    
-    .produtos li:hover h2 {
+body {
+    background-color: bisque;
+}
+
+.wrapper {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0,0,0,0.15);
+}
+
+#olive{
+float: left;
+height: 420px;
+width: 327px;
+border-radius: 7px 0 0 7px;
+}
+
+.produtoinfo {
+float: left;
+height: 420px;
+width: 327px;
+border-radius: 0 7px 10px 7px;
+background-color: #ffffff;
+
+}
+
+.produtotexto {
+height: 300px;
+width: 327px;
+}
+
+.produtotexto h1{
+    margin: 0 0 0 0 38px;
+    padding-top: 1px;
     font-size: 34px;
-    }
-    
-    .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-    }
-    
-    .produto-descricao {
-    font-size: 18px;
-    }
-    
-    .produto-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-    }
-    
-    footer {
-    text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
-    }
-    
-    .copyright {
-    color: #FFFFFF;
+    color:#474747;
+}
+
+.produtotexto h1,
+.botaopreco p {
+
+    font-family:'Benthman', serif;
+}
+
+.produtotexto h2{
+
+    margin: 0 0 47px 38px;
     font-size: 13px;
-    margin: 20px 0 0;
-    }
-    
-    main {
-    width: 940px;
-    margin: 0 auto;
-    }
-    
-    form {
-    margin: 40px 0;
-    }
-    
-    form label, form legend {
-    display:block;
-    font-size: 20px;
-    margin: 0 0 10px;
-    }
-    
-    .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-    }
-    
-    .redes {
-    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+}
+
+.produtotexto p{
+
+    height: 225px;
+    padding-bottom: 100px;
+    margin: 0 0 47px 38px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+
+}
+
+.botaopreco{
+
+    height: 103px;
+    padding-right: 50px;
+    width: 327px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.botaopreco p{
+
     display: inline-block;
-    padding-left: 2px;
-    }
-    #gmail {
-    
-    width: 5%;
-    }
-    
-    #fone{
-    width: 5%;
-    
-    }
-    
-    #zap {
-    width: 7%;
-    margin-left: auto;
-    
-    }
-    
-    
-    
-    .checkbox {
-    margin: 20px 0;
-    }
+    position: absolute;
+    top:-13px;
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #474747;
+
+}
+
+span{
+
+    display: inline-block;
+    height: 110px;
+    margin: auto;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+
+}
+
+.botaopreco button {
+
+    float: right;
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 60px 0 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+}
+
+.botaopreco button:hover {
+background-color: #79b0a1;
+
+}
